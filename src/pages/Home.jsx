@@ -528,7 +528,7 @@ export default function Home() {
             >
                 <div className="aspect-video w-full overflow-hidden rounded-3xl border border-slate-200 bg-slate-100">
                     <div className="flex h-full w-full items-center justify-center text-sm font-bold text-slate-500">
-                        Tempat embed YouTube trailer lu nanti.
+                        COMING SOON! SSAABARRR
                     </div>
                 </div>
             </Modal>
