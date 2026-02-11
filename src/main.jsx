@@ -9,6 +9,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter basename="/mercy-roleplay-web">
       <App />
     </BrowserRouter>
-
   </React.StrictMode>
 );
