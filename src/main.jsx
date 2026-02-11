@@ -6,8 +6,9 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/mercy-roleplay-web">
       <App />
     </BrowserRouter>
+
   </React.StrictMode>
 );
