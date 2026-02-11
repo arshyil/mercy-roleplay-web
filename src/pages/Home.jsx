@@ -242,7 +242,7 @@ export default function Home() {
                                 <Glass className="p-4 text-center">
                                     <div className="text-xs font-bold text-slate-500">Discord Members</div>
                                     <div className="mt-1 text-xl font-black text-slate-900">
-                                        <CountUp end={12842} duration={1.2} separator="," />
+                                        <CountUp end={3394} duration={1.2} separator="," />
                                     </div>
                                 </Glass>
 
@@ -255,7 +255,7 @@ export default function Home() {
 
                                 <Glass className="p-4 text-center">
                                     <div className="text-xs font-bold text-slate-500">Instansi WL</div>
-                                    <div className="mt-1 text-xl font-black text-slate-900">7</div>
+                                    <div className="mt-1 text-xl font-black text-slate-900">6</div>
                                 </Glass>
                             </div>
 
