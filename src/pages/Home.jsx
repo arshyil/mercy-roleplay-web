@@ -48,7 +48,7 @@ const highlights = [
     {
         icon: Zap,
         title: "Fast & Smooth",
-        desc: "Website ringan, animasi halus, dan tetap nyaman dibuka di HP maupun PC.",
+        desc: "Kota yang ringan cocok untuk kalian dengan device mid range",
     },
 ];
 
@@ -59,34 +59,34 @@ const timeline = [
         icon: Users,
     },
     {
-        title: "Pilih Instansi",
-        desc: "Pemerintah, Polisi, EMS, Mekanik, Pedagang, Pharmacy, Dragon Auto Shop.",
+        title: "Ambil Role Warga",
+        desc: "Sebelum memasuki kota ini kamu harus ambil role warga dulu yaa",
         icon: Shield,
     },
     {
-        title: "Apply Whitelist",
-        desc: "Daftar lewat form. Setelah diterima, kamu bisa mulai roleplay resmi.",
+        title: "Tentukan Alur Cerita",
+        desc: "Kamu dapat dengan bebas menentukan alur ceritamu sendiri",
         icon: ScrollText,
     },
     {
         title: "Bangun Story Karakter",
-        desc: "Mulai perjalananmu di Mercy. Kota ini dibuat untuk story yang panjang.",
+        desc: "Mulai perjalananmu di Mercy sesuai dengan karaktermu",
         icon: Sparkles,
     },
 ];
 
 const faq = [
     {
-        q: "Mercy Roleplay ini WL atau Open?",
-        a: "Mercy Roleplay menggunakan sistem whitelist untuk instansi tertentu. Kamu tetap bisa roleplay sebagai warga, tapi instansi perlu apply.",
+        q: "Berapa warga di kota ini?",
+        a: "Kota ini berisikan dengan kurang lebih 100 player aktif setiap harinya",
     },
     {
         q: "Kalau aku pemula roleplay, bisa join?",
-        a: "Bisa. Yang penting kamu niat belajar, punya mic yang jelas, dan mau ikut rules kota.",
+        a: "Bisa. Justru disini tempat yang paling tepat untuk kamu memulai perjalanan",
     },
     {
         q: "Daftar instansi lewat mana?",
-        a: "Lewat halaman Instansi. Tiap instansi punya landing page sendiri + tombol apply.",
+        a: "Bisa kunjungi discord kota ya, ada tombol 'Join Discord' bisa di klik saja",
     },
 ];
 
@@ -403,7 +403,7 @@ export default function Home() {
                     <SectionTitle
                         kicker="Cinematics"
                         title="A city you can feel"
-                        desc="Trailer Mercy Roleplay. Nanti tinggal ganti link YouTube sesuai intro server kamu."
+                        desc="Trailer Mercy Roleplay."
                     />
                 </Reveal>
 
@@ -456,7 +456,7 @@ export default function Home() {
                     <SectionTitle
                         kicker="FAQ"
                         title="Quick answers"
-                        desc="Biar pemain baru ga bingung. Jawaban lengkap nanti bisa dibuat halaman Rules + FAQ."
+                        desc="Beberapa pertanyaan populer."
                     />
                 </Reveal>
 
