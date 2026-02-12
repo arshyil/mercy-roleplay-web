@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sparkles, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+
 
 const nav = [
     { label: "Home", to: "/" },
@@ -28,9 +29,15 @@ export default function Navbar() {
                     className="group flex items-center gap-3"
                     onClick={() => setOpen(false)}
                 >
-                    <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-white shadow-lg transition group-hover:scale-[1.03]">
-                        <Sparkles size={18} />
+                    <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl bg-transparent transition group-hover:scale-[1.03]">
+                        <img
+                            src="/staff/people/logoMercy.png"
+                            alt="Mercy Roleplay"
+                            className="h-full w-full object-contain"
+                        />
                     </div>
+
+
                     <div className="leading-tight">
                         <div className="text-sm font-extrabold tracking-tight text-slate-900">
                             Mercy Roleplay
