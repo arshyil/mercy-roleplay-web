@@ -443,7 +443,7 @@ export default function Staff() {
 
                     <Reveal>
                         <Group
-                            title="Trial Admin"
+                            title="Trial Helper"
                             icon={BadgeCheck}
                             tone="purple"
                             desc="Admin trainee. Masih dalam masa evaluasi."
