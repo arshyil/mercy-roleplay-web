@@ -31,7 +31,7 @@ const instansiPreview = [
     { title: "EMS", icon: Siren },
     { title: "Mekanik", icon: Wrench },
     { title: "Pedagang", icon: ShoppingBag },
-    { title: "Pharmacy", icon: Pill },
+    { title: "Bengkel Dragon", icon: Wrench },
 ];
 
 const highlights = [
@@ -136,15 +136,18 @@ function InstansiMiniCard({ icon: Icon, title }) {
     return (
         <div
             onMouseMove={handlers.onMove}
-            onMouseLeave={handlers.onLeave} 
+            onMouseLeave={handlers.onLeave}
             style={style}
             className="group rounded-3xl border border-slate-200 bg-white/70 p-4 shadow-xl backdrop-blur-xl transition"
         >
-            <div className="flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-white shadow-lg transition group-hover:scale-[1.03]">
-                    <Icon size={18} />
+            <div className="flex flex-col items-start gap-3 md:flex-row md:items-center">
+                <div className="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-white shadow-lg transition group-hover:scale-[1.03]">
+                    <Icon className="h-5 w-5" />
                 </div>
-                <div className="text-sm font-black text-slate-900">{title}</div>
+
+                <div className="text-sm font-black leading-tight text-slate-900">
+                    {title}
+                </div>
             </div>
 
             <div className="mt-3 text-xs leading-relaxed text-slate-600">
@@ -153,6 +156,8 @@ function InstansiMiniCard({ icon: Icon, title }) {
         </div>
     );
 }
+
+
 
 export default function Home() {
     const [openTrailer, setOpenTrailer] = useState(false);
@@ -267,12 +272,11 @@ export default function Home() {
                             <Glass className="relative overflow-hidden p-6">
                                 <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gradient-to-r from-blue-600/25 to-violet-600/25 blur-2xl" />
                                 <div className="relative">
-                                    <div className="text-sm font-black text-slate-900">
-                                        Whitelist Instansi
+                                    <div className="text-xl font-black text-slate-900">
+                                        Whitelist Kota Mercy
                                     </div>
                                     <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                                        Pilih jalur roleplay kamu. Setiap instansi punya landing page
-                                        sendiri + tombol apply.
+                                        Daftarkan dirimu ke whitelist yang ada di kota...
                                     </p>
 
                                     <div className="mt-4 grid grid-cols-2 gap-3">
