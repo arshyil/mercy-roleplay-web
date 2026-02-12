@@ -28,14 +28,20 @@ export default function Footer() {
                     <div>
                         <div className="text-sm font-extrabold text-slate-900">Menu</div>
                         <div className="mt-3 grid gap-2 text-sm text-slate-600">
-                            <a className="hover:text-slate-900" href="/">
+                            <a className="hover:text-slate-900" href="/mercy-roleplay-web">
                                 Home
                             </a>
-                            <a className="hover:text-slate-900" href="/instansi">
+                            <a className="hover:text-slate-900" href="/mercy-roleplay-web/about">
+                                About
+                            </a>
+                            <a className="hover:text-slate-900" href="/mercy-roleplay-web/rules">
+                                Rules
+                            </a>
+                            <a className="hover:text-slate-900" href="/mercy-roleplay-web/instansi">
                                 Instansi
                             </a>
-                            <a className="hover:text-slate-900" href="/rules">
-                                Rules
+                            <a className="hover:text-slate-900" href="/mercy-roleplay-web/staff">
+                                Staff
                             </a>
                             <a className="hover:text-slate-900" href="#">
                                 Gallery (coming soon)

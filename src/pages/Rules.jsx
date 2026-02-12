@@ -369,7 +369,7 @@ export default function Rules() {
                         <div>
                             <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-black text-slate-700 shadow-sm">
                                 <BookOpen size={16} />
-                                MERCY CITY CODEX
+                                RULES KOTA MERCY
                             </div>
 
                             <h1 className="mt-6 text-4xl font-black tracking-tight text-slate-900 md:text-6xl">

@@ -198,41 +198,41 @@ export default function Staff() {
     const data = useMemo(() => {
         return {
             owner: [
-                { ic: "ROSE SANTI", tag: "OWNER", photo: "/staff/people/foto1.png" },
+                { ic: "ROSE SANTI", tag: "OWNER", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
+
             developer: [
-                { ic: "MRP", tag: "Maslex", note: "Developer / scripting & systems.", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "Maslex Maximilian", tag: "MPR - Maslex", note: "Developer / scripting & systems.", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
             modder: [
-                { ic: "MRP", tag: "DK", note: "Modder / asset & city visuals.", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "MRP - DK", tag: "Dhika Starheaven", note: "Modder / asset & city visuals.", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
             superAdmin: [
-                { ic: "APTA R MAXIMILIAN", tag: "MRP - APT", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "MAMAT KHALEEL", tag: "MRP - MAMAT", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "RICHARD BECKER", tag: "MRP - OPUNG", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "APTA R MAXIMILIAN", tag: "MRP - APT", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "MAMAT KHALEEL", tag: "MRP - MAMAT", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "RICHARD BECKER", tag: "MRP - OPUNG", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
             admin: [
-                { ic: "DEON AWATARA", tag: "MRP - MASDE", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "LOKI LYSANDER", tag: "MRP - LER", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "BINTANG LAVENDRA", tag: "MRP - MULYO", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "MAX KENZIE", tag: "MRP - MAXXIE", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "ZUKII DELON", tag: "MRP - ZUKI", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "ALEX", tag: "MRP - A", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "DAENG", tag: "MRP - D", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "DEON AWATARA", tag: "MRP - MASDE", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "LOKI LYSANDER", tag: "MRP - LER", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "BINTANG LAVENDRA", tag: "MRP - MULYO", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "MAX KENZIE", tag: "MRP - MAXXIE", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "ZUKII DELON", tag: "MRP - ZUKI", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "ALEX", tag: "MRP - A", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "DAENG", tag: "MRP - D", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
             helper: [
-                { ic: "CLARA JASMINE", tag: "MRP - CLARA", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "KYNARA DACAMORA", tag: "MRP - KYN", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "CLARA JASMINE", tag: "MRP - CLARA", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
+                { ic: "KYNARA DACAMORA", tag: "MRP - KYN", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
 
             trial: [
-                { ic: "HAYASHI JORDI", tag: "MRP - JORDI", photo: "/staff/people/rose-santi.jpg" },
-                { ic: "DAREN", tag: "XALTERED", photo: "/staff/people/rose-santi.jpg" },
+                { ic: "HAYASHI JORDI", tag: "MRP - JORDI", photo: import.meta.env.BASE_URL + "staff/people/logoMercy.png" },
             ],
         };
     }, []);
@@ -268,8 +268,7 @@ export default function Staff() {
 
                             <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-600">
                                 Staff Mercy Roleplay adalah penjaga kualitas roleplay, keamanan kota,
-                                dan kenyamanan komunitas. Kalau ada masalah, jangan ribut OOC — langsung
-                                lewat jalur support.
+                                dan kenyamanan komunitas. Kalau ada masalah, jangan ribut OOC — cuma game geysszz.
                             </p>
 
                             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -314,7 +313,7 @@ export default function Staff() {
 
                                 <p className="mt-4 text-sm leading-relaxed text-slate-600">
                                     Semua keputusan staff tetap mengikuti rules kota. Jika ada laporan,
-                                    gunakan jalur ticket/support supaya rapi dan adil.
+                                    segera laporkan kepada admin.
                                 </p>
                             </Glass>
 
@@ -334,8 +333,8 @@ export default function Staff() {
                                 </div>
 
                                 <p className="mt-4 text-sm leading-relaxed text-slate-600">
-                                    Jangan drama di chat. Kalau ada masalah, buat ticket dan jelaskan
-                                    kronologi. Staff akan handle sesuai prioritas.
+                                    Jangan drama di chat. Kalau ada masalah, masuk layanan warga
+                                    jelaskan kronologi. Staff akan handle sesuai prioritas.
                                 </p>
                             </Glass>
 
@@ -391,7 +390,7 @@ export default function Staff() {
                             title="Developer"
                             icon={Code2}
                             tone="purple"
-                            desc="Pengembang sistem, scripting, dan optimasi server."
+                            desc="Pengembang server, scripting, dan optimasi server."
                             people={data.developer}
                         // image="/staff/owner.jpg"
                         />

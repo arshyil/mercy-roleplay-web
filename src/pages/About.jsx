@@ -29,7 +29,7 @@ export default function About() {
         {
             icon: Shield,
             title: "Instansi Whitelist",
-            desc: "Pemerintah, Polisi, EMS, Mekanik, Pedagang, Pharmacy, sampai Dragon Auto Shop — semuanya punya jalur roleplay sendiri.",
+            desc: "Pemerintah, Polisi, EMS, Mekanik, Pedagang, sampai Dragon Auto Shop — semuanya punya jalur roleplay sendiri.",
         },
         {
             icon: Ghost,
